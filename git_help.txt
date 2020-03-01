@@ -1,15 +1,19 @@
 This will be Git help file with tutorial
 
 make a folder
-go inside
-run "git init"
+go inside and run following command
+	git init
 create some files. README.md, help.txt etc etc
-git add *
-git commit -a
+	git add *
+	git commit -a
 
 run following commands:
 	-u to give username
 	-JSON to give project name
 	-escape inverted comma
 
-curl -u 'nishishailesh' https://api.github.com/user/repos -d "{\"name\":\"learn_git\"}"
+	curl -u 'nishishailesh' https://api.github.com/user/repos -d "{\"name\":\"learn_git\"}"
+
+
+to push all files to new project created
+	git push https://github.com/nishishailesh/learn_git master
